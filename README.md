@@ -1,4 +1,4 @@
-# Introduction into software engineering
+# A way to start software engineering
 
 The realm of software engineering is complex. I intentionally say complex rather than difficult. The complexity makes a beginner feel perplexed, but there is a simple essence understanding, getting to which is the first, the hardest and the breaking through milestone. After the milestone is reached, all that is left is to unroll the complexity ball. And that is pretty straightforward - you just read open-source, books, blog posts, tweets, watch conference talks and practice. Your learning becomes something proportional to the time you put into it.
 
