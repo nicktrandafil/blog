@@ -1,14 +1,17 @@
+- [A way to start software engineering](#a-way-to-start-software-engineering)
+  - [Summary](#summary)
+
 # A way to start software engineering
 
 The realm of software engineering is complex. I intentionally say complex rather than difficult. The complexity makes a beginner feel perplexed, but there is a simple essence understanding, getting to which is the first, the hardest and the breaking through milestone. After the milestone is reached, all that is left is to unroll the complexity ball. And that is pretty straightforward - you just read open-source, books, blog posts, tweets, watch conference talks and practice. Your learning becomes something proportional to the time you put into it.
 
 Until you reach the milestone I say you need answers to none of the popular questions beginners bear searching answers with:
-* what books to read;
 * what programming language to learn;
 * what tooling to use;
 * what platforms to learn to write programs for.
+* what books to read;
 
-Until you reach the milestone, you need not be involved with unneeded complexities. You will read no books, you will learn no programming languages. You will learn no software engineering. But you will learn to think algorithmically, formulate abstract solutions for the problem in your head and transform that thinking into something formal and strict - a programming language. Thus you will produce a program. The program will read some input data for the problem, will get executed instruction by instruction producing side effects and contributing into the final result and at the end it will show the result. I will highlight that the program doesn't produce the solution but rather itself is the solution, which takes some parameters of the problem and produces the result for that problem with those parameters.
+Until you reach the milestone, you need not be involved with unneeded complexities. You will read no books, you will learn no programming languages, you will learn no software engineering. But you will learn to think algorithmically, formulate abstract solutions for the problem in your head and transform that thinking into something formal and strict - a programming language. Thus you will produce a program. The program will read some input data for the problem, will get executed instruction by instruction producing side effects and contributing into the final result and at the end it will show the result. I will highlight that the program doesn't produce the solution but rather itself is the solution, which takes some parameters of the problem and produces the result for that problem with those parameters.
 
 So, a program is a strictly formalized algorithm. Algorithm is a sequence of instructions, possible with branches and loops. Computer executes the instructions the effect of which produces the result with a meaning known to you - the author of the instructions - but not to the computer. Computer does not make sense of what it executes. You might make a mistake composing the instructions, and the computer still might successfully execute them producing a result, but only you will understand that the result is incorrect and unexpected. Only you will be able to review the instruction sequence (debug) trying to understand at which point you put an incorrect instruction making the calculations go the wrong way.
 
@@ -159,5 +162,9 @@ To find a problem, you can go to _Problem Set_ from the main page, sort the list
 The second option is GeeksForGeeks which also has a rich resource of tutorials with explanations and solutions.
 
 For example, you can go to Tutorials->Algorithms->Mathematical then click on _GCD and LCM_ and find a very thorough explanation of the topic. There is also the solution. Or you can go right into Practice->All DSA Problems and start solving.
+
+## Summary
+
+Develop algorithmic thinking first. Practice algorithmic articulacy by solving pure algorithmic problems. Meanwhile, don't get involved with engineering problems.
 
 I'm sure you are perplexed, but I hope you are also excited.
