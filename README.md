@@ -1,9 +1,15 @@
 - [A way to start software engineering](#a-way-to-start-software-engineering)
+  - [Algorithmic articulation is the essence](#algorithmic-articulation-is-the-essence)
+  - [Getting to understand algorithms by examples](#getting-to-understand-algorithms-by-examples)
+  - [Practice composing algorithms](#practice-composing-algorithms)
   - [Summary](#summary)
+  - [Resources](#resources)
 
 # A way to start software engineering
 
-The realm of software engineering is complex. I intentionally say complex rather than difficult. The complexity makes a beginner feel perplexed, but there is a simple essence understanding, getting to which is the first, the hardest and the breaking through milestone. After the milestone is reached, all that is left is to unroll the complexity ball. And that is pretty straightforward - you just read open-source, books, blog posts, tweets, watch conference talks and practice. Your learning becomes something proportional to the time you put into it.
+The realm of software engineering is complex. I intentionally say complex rather than difficult. The complexity makes a beginner feel perplexed, but there is a simple essence understanding, getting to which is the first, the hardest and the breaking through milestone. After the milestone is reached, all that is left is to unroll the complexity ball. And that is pretty straightforward and fun - you just read open-source, books, blog posts, tweets, watch conference talks and practice. Your learning becomes something proportional to the time you put into it.
+
+## Algorithmic articulation is the essence
 
 Until you reach the milestone I say you need answers to none of the popular questions beginners bear searching answers with:
 * what programming language to learn;
@@ -14,6 +20,8 @@ Until you reach the milestone I say you need answers to none of the popular ques
 Until you reach the milestone, you need not be involved with unneeded complexities. You will read no books, you will learn no programming languages, you will learn no software engineering. But you will learn to think algorithmically, formulate abstract solutions for the problem in your head and transform that thinking into something formal and strict - a programming language. Thus you will produce a program. The program will read some input data for the problem, will get executed instruction by instruction producing side effects and contributing into the final result and at the end it will show the result. I will highlight that the program doesn't produce the solution but rather itself is the solution, which takes some parameters of the problem and produces the result for that problem with those parameters.
 
 So, a program is a strictly formalized algorithm. Algorithm is a sequence of instructions, possible with branches and loops. Computer executes the instructions the effect of which produces the result with a meaning known to you - the author of the instructions - but not to the computer. Computer does not make sense of what it executes. You might make a mistake composing the instructions, and the computer still might successfully execute them producing a result, but only you will understand that the result is incorrect and unexpected. Only you will be able to review the instruction sequence (debug) trying to understand at which point you put an incorrect instruction making the calculations go the wrong way.
+
+## Getting to understand algorithms by examples
 
 Let's go through an example and it will be great if you have some mathematical background. The problem - you want to know the factorial of 12. The algorithm - you multiply all the numbers starting from 2 to 12 like this 2 x 3 x 4 x ... x 11 x 12. If you were to calculate this on a piece of paper you would take 2, would multiply it by 3 and would write it down as an intermediate result. Then would multiply the intermediate result by 4 and write it down. You would go on until you would have reached 12 and at that point your intermediate result would be the final result. Now, let's transform this thinking into something formal and strict - the C programming language. Here the code is.
 
@@ -123,6 +131,8 @@ int main() {
 
 We changed `divisor <= x / 2` to `divisor <= sqrt(x)`. Also we added the line at the top `#include <math.h>` to bring the `sqrt` function into your program. Play with [it](https://godbolt.org/z/84188WeM3).
 
+## Practice composing algorithms
+
 Now, what to do next is practice composing programs like this until you feel you deeply get it. You will know when it happens. You will need some source of simple problems like our examples; you already have the Compiler Explorer tool to compose and run your programs; and you will need a way to validate that your programs produce expected answers to all possible inputs defined by the problems. Luckily there are online websites that have huge problem sets. You select a problem from such a website, write the program for the problem and submit the program to the website. The website will run your program with different inputs and will tell you whether your program always produces correct answers, and whether it is optimized enough and fits the time and memory constraints imposed by the problem.
 
 Lets have a look at two such websites https://codeforces.com and https://www.geeksforgeeks.org. Select any of two and go practicing. When you don't know how to express something in C programming language, luckily most of the problems have exemptions and available solutions (programs). Or you can reach someone out and just ask.
@@ -168,3 +178,7 @@ For example, you can go to Tutorials->Algorithms->Mathematical then click on _GC
 Develop algorithmic thinking first. Practice algorithmic articulacy by solving pure algorithmic problems. Meanwhile, don't get involved with engineering problems.
 
 I'm sure you are perplexed, but I hope you are also excited.
+
+## Resources
+
+[Brilliant](https://brilliant.org/) is an awesome learning platform. They have an article about [Computer Programming Resources for Beginners](https://brilliant.org/wiki/computer-programming-resources-for-beginners/). I was very surprised to read they suggest the same approach for learning programming - starting with practicing algorithmic thinking.
